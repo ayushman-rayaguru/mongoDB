@@ -1,0 +1,1 @@
+mongoimport --host mflix-shard-0/mflix-shard-00-00-up0yn.mongodb.net:27017,mflix-shard-00-01-up0yn.mongodb.net:27017,mflix-shard-00-02-up0yn.mongodb.net:27017 --ssl --username analytics --password <PASSWORD> --authenticationDatabase admin --db <DATABASE> --collection <COLLECTION> --type <FILETYPE> --file <FILENAME>
